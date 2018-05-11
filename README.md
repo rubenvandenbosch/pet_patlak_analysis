@@ -1,6 +1,6 @@
 # Matlab code for Patlak graphical analysis of PET data
 
-DESCRIPTION
+DESCRIPTION  
 The patlak analysis entails the following steps:
 1. Read headers and image data of PET images and mask (ref ROI) image
 2. Create input function from PET data in reference ROI
@@ -12,7 +12,7 @@ The patlak analysis entails the following steps:
         Patlak function for each voxel
 4. Save results of Ki and Vd voxel values in NIFTI images
 
-INPUTS
+INPUTS  
 files         = PET images to analyze 
 timingsfile   = timing of PET scans 
 mask          = mask image of reference region
