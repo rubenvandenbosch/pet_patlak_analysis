@@ -15,7 +15,7 @@ function pet_patlak(files,timingsfile,mask,outputdir)
 % 4. Save results of Ki and Vd voxel values in NIFTI images
 % 
 % INPUTS
-% files         = PET images to analyze 
+% files         = PET images to analyze (cellstring)
 % timingsfile   = timing of PET scans 
 % mask          = mask image of reference region
 % outputdir     = output directory for patlak output
