@@ -134,7 +134,7 @@ patlakX = int_input_func./input_function;
 sizeY = size(Y);
 
 input_func_mat = reshape(input_function,1,1,numel(input_function),1);
-input_func_mat = repmat(input_func_mat,[sizeY(1),sizeY(2)],1);
+input_func_mat = repmat(input_func_mat,sizeY(1),sizeY(2),1);
 
 % Voxel-wise calculation per slice: rate of net influx, Ki
 % -------------------------------------------------------------------------
